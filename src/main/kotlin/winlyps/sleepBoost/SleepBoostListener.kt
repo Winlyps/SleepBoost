@@ -15,7 +15,7 @@ class SleepBoostListener(private val plugin: SleepBoost) : Listener {
 
         // Check if the player successfully entered the bed
         if (event.bedEnterResult == PlayerBedEnterEvent.BedEnterResult.OK) {
-            // Apply levitation effect for 7 seconds (140 ticks)
+            // Apply levitation effect for 5 seconds (140 ticks)
             player.addPotionEffect(PotionEffect(PotionEffectType.LEVITATION, 100, 1))
         }
     }
