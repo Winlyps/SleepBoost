@@ -1,0 +1,5 @@
+name: SleepBoost
+version: '1.0.0'
+main: winlyps.sleepBoost.SleepBoost
+api-version: '1.16'
+authors: [ Winlyps ]
